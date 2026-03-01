@@ -1,11 +1,15 @@
 # Awesome Engineering Articles
 > A curated collection of 300+ engineering blog articles from top tech companies. Learn how the best engineering teams solve real-world problems at scale.
 
+<p align="center">
+  <img src="eng-blogs.jpg" width="400" height="250">
+</p>
+
 ---
 
 ## Table of Contents
 
-[Airbnb](#airbnb) · [Amazon Science](#amazon-science) · [Atlassian](#atlassian) · [Booking.com](#bookingcom) · [Canva](#canva) · [Coinbase](#coinbase) · [Discord](#discord) · [DoorDash](#doordash) · [Dropbox](#dropbox) · [eBay](#ebay) · [Facebook/Meta](#facebookmeta) · [Figma](#figma) · [GitHub](#github) · [Google Research](#google-research) · [Instagram](#instagram) · [Instacart](#instacart) · [LinkedIn](#linkedin) · [Lyft](#lyft) · [Netflix](#netflix) · [Notion](#notion) · [PayPal](#paypal) · [Pinterest](#pinterest) · [Quora](#quora) · [Reddit](#reddit) · [Salesforce](#salesforce) · [Shopify](#shopify) · [Slack](#slack) · [Snap](#snap) · [Spotify](#spotify) · [Stripe](#stripe) · [Tinder](#tinder) · [Twitch](#twitch) · [Twitter/X](#twitterx) · [Uber](#uber) · [Walmart](#walmart)
+[Airbnb](#airbnb) · [Amazon Science](#amazon-science) · [Atlassian](#atlassian) · [Booking.com](#bookingcom) · [Canva](#canva) · [Coinbase](#coinbase) · [Discord](#discord) · [DoorDash](#doordash) · [Dropbox](#dropbox) · [eBay](#ebay) · [Facebook/Meta](#facebookmeta) · [Figma](#figma) · [Flipkart](#flipkart) · [GitHub](#github) · [Google Research](#google-research) · [Instagram](#instagram) · [Instacart](#instacart) · [LinkedIn](#linkedin) · [Lyft](#lyft) · [Netflix](#netflix) · [Notion](#notion) · [PayPal](#paypal) · [Pinterest](#pinterest) · [Quora](#quora) · [Razorpay](#razorpay) · [Reddit](#reddit) · [Salesforce](#salesforce) · [Shopify](#shopify) · [Slack](#slack) · [Snap](#snap) · [Spotify](#spotify) · [Stripe](#stripe) · [Swiggy](#swiggy) · [Tinder](#tinder) · [Twitch](#twitch) · [Twitter/X](#twitterx) · [Uber](#uber) · [Walmart](#walmart) · [Zomato](#zomato)
 
 ---
 
@@ -189,6 +193,19 @@
 | 6 | [How Figma reduced potential instability by scaling to multiple databases](https://www.figma.com/blog/how-figma-scaled-to-multiple-databases/) | Databases | 2023 |
 | 7 | [The hidden challenges of autosave](https://www.figma.com/blog/behind-the-feature-autosave/) | Architecture | 2020 |
 | 8 | [Figma's deep search to find the right files even faster](https://www.figma.com/blog/deep-search/) | Search | 2020 |
+
+## Flipkart
+
+> [Flipkart Tech Blog](https://blog.flipkart.tech/)
+
+| # | Article | Topics | Year |
+|---|---------|--------|------|
+| 1 | [Flipkart's MySQL Highly Available Setup](https://blog.flipkart.tech/mysql-high-availability-5f71838f19e1) | Databases | 2023 |
+| 2 | [Running a multi-region Zookeeper at Flipkart](https://blog.flipkart.tech/running-a-multi-region-zookeeper-58e52cec44ff) | Infrastructure | 2021 |
+| 3 | [Memory Tuning a High Throughput Microservice](https://blog.flipkart.tech/memory-tuning-a-high-throughput-microservice-ed57b3e60997) | Performance | 2021 |
+| 4 | [Building Flipkart's Personalized Search Autosuggestion](https://blog.flipkart.tech/building-personalized-autosuggestion-9e705d5bf5f8) | AI/ML, Search | 2021 |
+| 5 | [Predicting your next query even before you type!](https://blog.flipkart.tech/predicting-your-next-query-even-before-you-type-83487a34109d) | AI/ML, Search | 2021 |
+| 6 | [How Flipkart Adapted Search to Indian Phonetics](https://blog.flipkart.tech/adapting-search-to-indian-phonetics-cdbe65259686) | Search | 2020 |
 
 ## GitHub
 
@@ -381,6 +398,22 @@
 | 3 | [Trino at Quora Scale: Cost, Speed, and Reliability](https://quoraengineering.quora.com/Trino-at-Quora-Scale-Cost-Speed-and-Reliability) | Data Engineering, Performance | 2023 |
 | 4 | [MySQL sharding at Quora](https://quoraengineering.quora.com/MySQL-sharding-at-Quora) | Databases | 2020 |
 
+## Razorpay
+
+> [Razorpay Engineering Blog](https://engineering.razorpay.com/)
+
+| # | Article | Topics | Year |
+|---|---------|--------|------|
+| 1 | [Razorpay's Authentication Revamp](https://engineering.razorpay.com/razorpays-authentication-revamp-turbocharging-performance-b8bb9d750fe8) | Performance, Security | 2023 |
+| 2 | [The Making of Razorpay Developer-Console](https://engineering.razorpay.com/the-making-of-developer-console-978018ce2aed) | Frontend | 2023 |
+| 3 | [How Razorpay Reduced Data Platform Cost by $2M](https://engineering.razorpay.com/reducing-data-platform-cost-by-2m-d8f82285c4ae) | Cost Optimization | 2023 |
+| 4 | [Reducing Kubernetes cost by $300,000 at Razorpay](https://engineering.razorpay.com/the-culture-of-cost-optimization-reducing-kubernetes-cost-by-300-000-32611cdd19d9) | Cost Optimization, Infrastructure | 2023 |
+| 5 | [How does Razorpay Capital Detect Duplicate or Fraud Merchants?](https://engineering.razorpay.com/how-does-razorpay-capital-detect-duplicate-or-fraud-merchants-5ddc67e1535a) | Security, AI/ML | 2023 |
+| 6 | [Razorpay's Real-Time Denormalized Data Streaming Platform](https://engineering.razorpay.com/real-time-denormalized-data-streaming-platform-part-3-optimisations-and-monitoring-5f7a58d9d97) | Data Engineering | 2023 |
+| 7 | [How Razorpay's Notification Service Handles Increasing Load](https://engineering.razorpay.com/how-razorpays-notification-service-handles-increasing-load-f787623a490f) | Messaging, Performance | 2022 |
+| 8 | [How Trino and Alluxio power analytics at Razorpay](https://engineering.razorpay.com/how-trino-and-alluxio-power-analytics-at-razorpay-803d3386daaf) | Data Engineering | 2022 |
+| 9 | [Handling Burst Traffic During IPL](https://engineering.razorpay.com/ipl-razorpays-second-innings-ae7c86b0894c) | Performance, Infrastructure | 2021 |
+
 ## Reddit
 
 > [Reddit Engineering Blog](https://www.reddit.com/r/RedditEng/)
@@ -483,6 +516,28 @@
 | 4 | [How Stripe builds interactive docs with Markdoc](https://stripe.com/blog/markdoc) | Frontend | 2022 |
 | 5 | [Stripe's payments APIs: The first 10 years](https://stripe.com/blog/payment-api-design) | Architecture, Payments | 2020 |
 
+## Swiggy
+
+> [Swiggy Engineering Blog](https://bytes.swiggy.com/)
+
+| # | Article | Topics | Year |
+|---|---------|--------|------|
+| 1 | [Swiggy's Text-to-SQL Solution](https://bytes.swiggy.com/hermes-a-text-to-sql-solution-at-swiggy-81573fb4fb6e) | AI/ML, Data Engineering | 2024 |
+| 2 | [Optimising the picking process for faster Instamart deliveries](https://bytes.swiggy.com/optimizing-the-picking-process-to-enable-faster-deliveries-for-instamart-93de0fe9d819) | AI/ML | 2024 |
+| 3 | [Improving search relevance using small language models](https://bytes.swiggy.com/improving-search-relevance-in-hyperlocal-food-delivery-using-small-language-models-ecda2acc24e6) | AI/ML, Search | 2024 |
+| 4 | [Predicting Food Delivery Time at Cart](https://bytes.swiggy.com/predicting-food-delivery-time-at-cart-cda23a84ba63) | AI/ML | 2023 |
+| 5 | [Contextual Bandits for Ads Recommendations](https://bytes.swiggy.com/contextual-bandits-for-ads-recommendations-ec210775fcf) | AI/ML | 2022 |
+| 6 | [Using deep learning to detect dissonance between address text and location](https://bytes.swiggy.com/using-deep-learning-to-detect-dissonance-between-address-text-and-location-4b228bc2c3fb) | AI/ML | 2022 |
+| 7 | [Designing Resilient Microservices at Swiggy](https://bytes.swiggy.com/designing-resilient-microservices-part-1-6a72fe964759) | Architecture | 2021 |
+| 8 | [Designing the Serviceability Platform at Swiggy for High Scale](https://bytes.swiggy.com/designing-the-serviceability-platform-at-swiggy-for-high-scale-part-2-ab20365fbc23) | Architecture, Performance | 2021 |
+| 9 | [A brief introduction to Engineering challenges at Swiggy](https://bytes.swiggy.com/engineering-challenges-at-swiggy-430dea6c86a3) | Architecture | 2021 |
+| 10 | [Re-Architecting Swiggy's logistics systems](https://bytes.swiggy.com/re-architecting-swiggys-logistics-systems-ddf301a29fa0) | Architecture | 2021 |
+| 11 | [Using Deep Learning for Ranking in Dish Search](https://bytes.swiggy.com/using-deep-learning-for-ranking-in-dish-search-4df2772dddce) | AI/ML, Search | 2021 |
+| 12 | [Learning to Predict Two-Wheeler Travel Distance](https://bytes.swiggy.com/learning-to-predict-two-wheeler-travel-distance-752d836d741d) | AI/ML | 2021 |
+| 13 | [Learning To Rank Restaurants](https://bytes.swiggy.com/learning-to-rank-restaurants-c6a69ba4b330) | AI/ML, Search | 2021 |
+| 14 | [Running Geo Queries At Scale](https://bytes.swiggy.com/running-geo-queries-at-scale-adea70f5af45) | Databases, Performance | 2020 |
+| 16 | [Deploying deep learning models at scale at Swiggy](https://bytes.swiggy.com/deploying-deep-learning-models-at-scale-at-swiggy-tensorflow-serving-on-dsp-ad5da40f7a6c) | AI/ML, Infrastructure | 2020 |
+
 ## Tinder
 
 > [Tinder Tech Blog](https://medium.com/tinder)
@@ -559,6 +614,20 @@
 | 3 | [A Markov Chain Formulation for the Grocery Item Picking Process](https://medium.com/walmartglobaltech/a-markov-chain-formulation-of-grocery-item-picking-process-54c65a3ec5b5) | AI/ML | 2021 |
 | 4 | [How we rebuilt the Walmart Autocomplete Backend](https://medium.com/walmartglobaltech/how-we-rebuilt-the-walmart-autocomplete-backend-10efe71d624a) | Search, Performance | 2021 |
 | 5 | [Building a Notification Framework for Microservice-based Application](https://medium.com/walmartglobaltech/building-a-notification-framework-for-microservice-based-application-6fe5ac9dfcee) | Messaging, Architecture | 2021 |
+
+## Zomato
+
+> [Zomato Tech Blog](https://blog.zomato.com/category/technology)
+
+| # | Article | Topics | Year |
+|---|---------|--------|------|
+| 1 | [Building a cost-effective logging platform for petabyte scale](https://blog.zomato.com/building-a-cost-effective-logging-platform-using-clickhouse-for-petabyte-scale) | Observability, Cost Optimization | 2023 |
+| 2 | [How Zomato Handles 100 Million Daily Search Queries](https://blog.zomato.com/explained-how-zomato-handles-100-million-daily-search-queries-part-three) | Search, Performance | 2023 |
+| 3 | [How Zomato Powers restaurant ads using ML](https://blog.zomato.com/powering-restaurant-ads-on-zomato) | AI/ML | 2022 |
+| 4 | [How Zomato uses embeddings to identify and cluster unique addresses](https://blog.zomato.com/unique-addresses) | AI/ML | 2022 |
+| 5 | [How Zomato predicts your order's Food preparation time](https://blog.zomato.com/predicting-fpt-optimally) | AI/ML | 2022 |
+| 6 | [How Zomato locates its users](https://blog.zomato.com/to-help-us-locate-you-better) | Mobile | 2021 |
+| 7 | [The Deep Tech Behind Estimating Food Preparation Time](https://blog.zomato.com/food-preparation-time) | AI/ML | 2020 |
 
 ---
 
